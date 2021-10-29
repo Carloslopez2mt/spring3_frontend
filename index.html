@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+<head>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/misFunciones.js"></script>  
+    <title>Tutoria </title>
+</head>
+<body>
+    <h1> Tutoria Reto 3 y Reto4</h1>
+    <h1> Categorias</h1>
+    <div id="resultado1"></div>
+    <button onclick="traerInfoCompus()" > Consultar Categorias</button>
+    
+    <div>
+        <input type="text" id="Cname" placeholder="name">
+        <input type="text" id="Cdescription" placeholder="description">
+       
+        
+    </div>
+    <button onclick="guardarInformacionCategorias()">Guardar Categorias</button>
+   
+    <h1> Computadores</h1>
+    <div id="resultado2"></div>
+    <button onclick="traerInfoCompus()" > Consultar Computadores</button>
+    
+    <div>
+        
+        <input type="text" id="Cname" placeholder="name">
+        <input type="text" id="Cbrand" placeholder="brand">
+        <input type="number" id="Cyear" placeholder="year">
+        <input type="text" id="Cdescription" placeholder="description">
+        <select name="category" id="Categorias" placeholder="category_id">
+        </select>
+    </div>
+    <button onclick="guardarInfoCompus()">Guardar Computadores</button>
+   
+
+
+</body>
+</html>
+
