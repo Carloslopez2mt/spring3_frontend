@@ -195,7 +195,7 @@ function borrarElemento2(idElemento2){
     };
     let dataToSend=JSON.stringify(myData);
     $.ajax({
-        url:"http://150.136.84.233:8080/Computer/Lib/"+idElemento2,
+        url:"http://150.136.84.233:8080/api/Computer/"+idElemento2,
         type:"DELETE",
         data:dataToSend,
         contentType:"application/JSON",
