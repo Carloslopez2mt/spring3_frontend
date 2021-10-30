@@ -1,42 +1,90 @@
 <!DOCTYPE html>
-<html >
+<html>
 <head>
-  
+    <title>Reto 3 </title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script type="text/javascript" src="js/misFunciones.js"></script>  
-    <title>Tutoria </title>
+    <script type="text/javascript" src="js/misFunciones.js"></script>
+
 </head>
 <body>
-    <h1> Tutoria Reto 3 y Reto4</h1>
-    <h1> Categorias</h1>
-    <div id="resultado1"></div>
-    <button onclick="traerInformacionCategorias()" > Consultar Categorias</button>
-    
-    <div>
-        <input type="text" id="Cname" placeholder="name">
-        <input type="text" id="Cdescription" placeholder="description">
-       
-        
-    </div>
-    <button onclick="guardarInformacionCategorias()">Guardar Categorias</button>
-   
-    <h1> Computadores</h1>
-    <div id="resultado2"></div>
-    <button onclick="traerInfoCompus()" > Consultar Computadores</button>
-    
-    <div>
-        
-        <input type="text" id="Cpname" placeholder="name">
-        <input type="text" id="Cpbrand" placeholder="brand">
-        <input type="number" id="Cpyear" placeholder="year">
-        <input type="text" id="Cpdescription" placeholder="description">
-        <select name="category" id="Cpcategory" placeholder="category_id">
-        </select>
-    </div>
-    <button onclick="guardarInfoCompus()">Guardar Computadores</button>
-   
 
+<h1> Category!!</h1>
+<div id="resultado3"></div>
+<button onclick="traerInformacion3()"> Consultar </button>
+
+<div>
+    <input type="number" id="id3" placeholder="id3">
+    <input type="text" id="name3" placeholder="name3">   
+    <input type="text" id="description3" placeholder="description3">   
+    
+</div>
+
+<button onclick="guardarInformacion3()">Guardar!</button>
+<button onclick="editarInformacion3()">Actualizar!</button>    
+
+<h1> Computer!!</h1>
+<div id="resultado2"></div>
+<button onclick="traerInformacion2()"> Consultar </button>
+
+<div>
+    <input type="number" id="id2" placeholder="id2">
+    <input type="text" id="name2" placeholder="name2">
+    <input type="text" id="brand" placeholder="brand">
+    <input type="number" id="year" placeholder="year">
+    <input type="text" id="description" placeholder="description">    
+    
+</div>
+
+<button onclick="guardarInformacion2()">Guardar!</button>
+<button onclick="editarInformacion2()">Actualizar!</button>
+
+
+<h1> Cliente!!</h1>
+<div id="resultado"></div>
+<button onclick="traerInformacion()"> Consultar </button>
+
+<div>
+    <input type="number" id="idClient" placeholder="idClient">
+    <input type="text" id="email" placeholder="email">
+    <input type="text" id="password" placeholder="password">    
+    <input type="text" id="name" placeholder="name">    
+    <input type="number" id="age" placeholder="age">
+    
+</div>
+
+<button onclick="guardarInformacion()">Guardar!</button>
+<button onclick="editarInformacion()">Actualizar!</button>
+
+<h1> Message!!</h1>
+<div id="resultado1"></div>
+<button onclick="traerInformacion1()"> Consultar </button>
+
+<div>
+    <input type="number" id="idMessage" placeholder="idMessage">
+    <input type="text" id="messageText" placeholder="messageText">    
+    
+</div>
+
+<button onclick="guardarInformacion1()">Guardar!</button>
+<button onclick="editarInformacion1()">Actualizar!</button>
+
+
+<h1> Reservation!!</h1>
+<div id="resultado4"></div>
+<button onclick="traerInformacion4()"> Consultar </button>
+
+<div>
+    <input type="number" id="idReservation" placeholder="idReservation">
+    <input type="date" id="startDate" placeholder="startDate">
+    <input type="date" id="devolutionDate" placeholder="devolutionDate">
+    <input type="text" id="status" placeholder="status">     
+    
+</div>
+
+<button onclick="guardarInformacion4()">Guardar!</button>
+<button onclick="editarInformacion4()">Actualizar!</button>
 
 </body>
-</html>
 
+
+</html>
